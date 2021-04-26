@@ -1,0 +1,20 @@
+Instalaciones
+
+    npm i dotenv    // variables de entorno
+
+    npm i express-validator // Para manejar validaciones
+
+encriptacion de passwords
+    npm i bcryptjs
+
+    npm i jsonwebtoken
+
+Cors
+    npm i cors
+
+
+
+Mongo Atlas
+
+db user: mern_user
+password: xYQxBY5lknvlC9jM
