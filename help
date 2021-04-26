@@ -11,10 +11,3 @@ encriptacion de passwords
 
 Cors
     npm i cors
-
-
-
-Mongo Atlas
-
-db user: mern_user
-password: xYQxBY5lknvlC9jM

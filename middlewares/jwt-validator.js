@@ -20,6 +20,7 @@ const JWTValidator = ( req, res = response, next ) => {
             process.env.SECRET_JWT_SEED
         )
 
+        // Se le Agrega el uid y el name al request
         req.uid = uid;  
         req.name = name; 
 

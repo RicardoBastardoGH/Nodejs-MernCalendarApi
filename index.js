@@ -18,14 +18,12 @@ app.use(cors());
 // Directorio Publico
 app.use( express.static('public') );
 
-// Lectura y paseo del BODY
+// Lectura y parseo del BODY
 app.use( express.json() );
 
 // Rutas
-app.use('/api/auth', require('./routes/authRouter'));
-
-// TODO: CRUD: eventos
-
+app.use('/api/auth', require('./routes/authRouter') );
+app.use('/api/events', require('./routes/eventsRouter') );
 
 
 
@@ -33,4 +31,3 @@ app.use('/api/auth', require('./routes/authRouter'));
 app.listen( process.env.PORT , () => {
     console.log(`Server running on port ${ process.env.PORT }`)
 })
-
